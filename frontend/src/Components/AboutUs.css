@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap");
+
+.aboutus_heading {
+  font-size: 65px;
+  font-family: "Aleo", serif;
+  font-weight: 600;
+  height: 50px;
+  position: relative;
+  left: 618px;
+  bottom: -84px;
+  width: 279px;
+  display: flex;
+}
+
+.aboutus_text1 {
+  font-family: "Aleo", serif;
+  font-size: 40px;
+  font-weight: 500;
+  height: 50px;
+  width: 413px;
+  position: relative;
+  top: 109px;
+  left: 552px;
+}
+.aboutus_text2 {
+  font-family: "Aleo", serif;
+  font-size: 30px;
+  font-weight: 500;
+  height: 50px;
+  width: 1120px;
+  position: relative;
+  top: 116px;
+  left: 263px;
+}
+.aboutus_text3 {
+  font-family: "Aleo", serif;
+  font-size: 30px;
+  font-weight: 500;
+  height: 50px;
+  width: 357px;
+  position: relative;
+  top: 114px;
+  left: 595px;
+}
+
+.aboutus_text4 {
+  font-family: "Aleo", serif;
+  font-size: 45px;
+  font-weight: 500;
+  height: 50px;
+  width: 64px;
+  position: relative;
+  top: 106px;
+  left: 693px;
+}
+
+.row {
+  position: relative;
+  top: 131px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.team_picture {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 88px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container_card {
+  padding: 0 16px;
+}
+
+.container_card p {
+  font-family: Aleo, serif;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
